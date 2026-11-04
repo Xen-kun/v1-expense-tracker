@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --color-navy-950: #060b18;
+  --color-navy-900: #0b1223;
+  --color-navy-800: #111c35;
+  --color-navy-700: #1a2847;
+  --color-navy-600: #243358;
+  --color-violet-500: #7c3aed;
+  --color-violet-400: #8b5cf6;
+  --color-violet-300: #a78bfa;
+  --color-indigo-400: #6366f1;
+  --color-emerald-400: #34d399;
+  --color-rose-400: #fb7185;
+  --color-amber-400: #fbbf24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: #060b18;
+  color: #e2e8f0;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #243358;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #243358 transparent;
+}
+
+/* Global Card Style */
+.card {
+  background: #0b1223;
+  border: 1px solid #1a2847;
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
